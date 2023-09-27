@@ -1,0 +1,15 @@
+[
+
+    {
+        "username":"testqa2@tpro.io",
+        "password": "123123",
+        "newpassword": "321321"
+
+    },
+
+    {
+        "username": "testqa2@tpro.io",
+        "password": "321321",
+        "newpassword": "123123"
+    }
+]
