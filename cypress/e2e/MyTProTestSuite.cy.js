@@ -14,7 +14,7 @@ describe('MyTProTests',()=>{
     const db = new Dashboard();
     const ea = new EditAccount();
 
-    it('LoginTest', ()=>{
+    it.only('LoginTest', ()=>{
 
         cy.fixture("tpro").then((data)=>{
 
@@ -53,7 +53,6 @@ describe('MyTProTests',()=>{
         
             cy.fixture('tpro2').then((data2)=>{
             
-                //cy.wait(5000);
                 ln.setUserName(data2.username);
                 //invalid password
                 ln.setPassword(data2.password);
