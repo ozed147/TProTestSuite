@@ -1,6 +1,10 @@
 # TProTestSuite
 TProTestSuite enables you to test the application's ("TPro app") login functionality. The suite changes the password and validates the error message when a wrong password is entered.
 
+* First "T" block: The password is changed after login verification, and two sets of login details are used from the first fixture file (tpro.json).
+  Upon completion of the test, the password will be reset to its original value.Whenever the script is rerun, it starts with the initial password to prevent failure.
+
+
 # Prerequisites
 
 * NodeJS and NPM
